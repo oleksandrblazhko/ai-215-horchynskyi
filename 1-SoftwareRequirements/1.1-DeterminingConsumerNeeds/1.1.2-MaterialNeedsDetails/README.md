@@ -1,2 +1,2 @@
 ### Деталізація матеріальних потреб
-![mind_map](horchynskyi/mind_map.jpg)
+![mind_map](mind_map.jpg)
