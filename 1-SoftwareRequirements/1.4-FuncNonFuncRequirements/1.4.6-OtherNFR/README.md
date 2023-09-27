@@ -1,21 +1,21 @@
 ### Опис основних нефункціональних вимог, не пов’язаних з інтерфейсом користувача
 | FR | NFR | Тип NFR | Опис NFR |
 | --- | --- | --- | --- |
-| FR1.1 | NFR1.1 | Time Performance | Підгрузка переліку послуг не повина перевищувати 2 секунд |
-| FR1.1 | NFR1.2 | Software Interface  | Наявність ОС Android версії 7+  | 
-| FR1.2 | NFR1.3 | Time Performance | Підгрузка меню параметрів освітлення не повина перевищувати 2 секунд | 
-| FR1.2 | NFR1.4 | Software Interface | Наявність  ОС Android версії 7+  | 
-| FR1.3 | NFR1.5 | Time Performance | Обробка обраних параметрів освітлення не повина перевищувати 3 секунд | 
-| FR1.3 | NFR1.6 | Hardware | Наявність спеціальних ламп SafeCo Engineering для регуляції освітлення |
-| FR1.3 | NFR1.7 | Connection | Наявність Bluetoth з'єднання для передачі і отримання даних  |
-| FR1.4 | NFR1.8 | Time Performance | Врахування факторів не повинно перевищувати 3 секунд | 
-| FR1.4 | NFR1.9 | Hardware | Наявність спеціальних датчиків SafeCo Engineering для обробки факторів| 
-| FR1.4 | NFR1.10 | Connection | Наявність Bluetoth з'єднання для передачі і отримання даних  |
-| FR1.5 | NFR1.11 | Hardware | Наявність спеціальних ламп SafeCo Engineering для освітлення | 
-| FR1.5 | NFR1.12 | Connection | Наявність Bluetoth з'єднання для передачі і отримання даних  |
-| FR2.2 | NFR1.13 | Time Performance | Підгрузка меню генерації звіту не повина перевищувати 2 секунд |
-| FR2.2 | NFR1.14 | Software Interface | Наявність  ОС Android версії 7+  | 
-| FR2.3 | NFR1.15 | Time Performance | Збір даних не повинен перевущувати 2 секунд | 
-| FR2.3 | NFR1.16 | Hardware | Наявність спеціальних датчиків SafeCo Engineering для збору даних | 
-| FR2.3 | NFR1.17 | Connection | Наявність Bluetoth з'єднання для передачі і отримання даних  |
-| FR2.4 | NFR1.18 | Time Performance | Генерація звіту не повинна перевищувати 3 секунд | 
+| FR1.1 | NFR1.3 | Time Performance | Підгрузка переліку послуг не повина перевищувати 2 секунд |
+| FR1.1 | NFR1.4 | Software Interface  | Наявність ОС Android версії 7+  | 
+| FR1.2 | NFR1.5 | Time Performance | Підгрузка меню параметрів освітлення не повина перевищувати 2 секунд | 
+| FR1.2 | NFR1.6 | Software Interface | Наявність  ОС Android версії 7+  | 
+| FR1.3 | NFR1.7 | Time Performance | Обробка обраних параметрів освітлення не повина перевищувати 3 секунд | 
+| FR1.3 | NFR1.8 | Hardware | Наявність спеціальних ламп SafeCo Engineering для регуляції освітлення |
+| FR1.3 | NFR1.9 | Connection | Наявність Bluetoth з'єднання для передачі і отримання даних  |
+| FR1.4 | NFR1.10 | Time Performance | Врахування факторів не повинно перевищувати 3 секунд | 
+| FR1.4 | NFR1.11 | Hardware | Наявність спеціальних датчиків SafeCo Engineering для обробки факторів| 
+| FR1.4 | NFR1.12 | Connection | Наявність Bluetoth з'єднання для передачі і отримання даних  |
+| FR1.5 | NFR1.13 | Hardware | Наявність спеціальних ламп SafeCo Engineering для освітлення | 
+| FR1.5 | NFR1.14 | Connection | Наявність Bluetoth з'єднання для передачі і отримання даних  |
+| FR2.2 | NFR1.15 | Time Performance | Підгрузка меню генерації звіту не повина перевищувати 2 секунд |
+| FR2.2 | NFR1.16 | Software Interface | Наявність  ОС Android версії 7+  | 
+| FR2.3 | NFR1.17 | Time Performance | Збір даних не повинен перевущувати 2 секунд | 
+| FR2.3 | NFR1.18 | Hardware | Наявність спеціальних датчиків SafeCo Engineering для збору даних | 
+| FR2.3 | NFR1.19 | Connection | Наявність Bluetoth з'єднання для передачі і отримання даних  |
+| FR2.4 | NFR1.20 | Time Performance | Генерація звіту не повинна перевищувати 3 секунд | 
