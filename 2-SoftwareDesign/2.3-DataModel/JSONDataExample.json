@@ -25,31 +25,6 @@
           60
         ]
       }
-    },
-    {
-      "user": {
-        "username": "Jane Doe",
-        "password": "password456"
-      },
-      "light_parameters": {
-        "min_brightness": 25,
-        "check_time": 30
-      },
-      "report_generation": {
-        "generate_status": true
-      },
-      "light_report": {
-        "light_stats": 75,
-        "time_period": "night"
-      },
-      "regulating_system": {
-        "outdoor_factor": 0.5,
-        "light_level": 100,
-        "input_params": [
-          25,
-          30
-        ]
-      }
     }
   ]
 }
