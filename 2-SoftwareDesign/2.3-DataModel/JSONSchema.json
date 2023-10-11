@@ -1,0 +1,96 @@
+{
+  "description": "Схема освітлювальної системи",
+  "type": "object",
+  "properties": {
+    "user": {
+      "description": "Дані користувача",
+      "type": "object",
+      "properties": {
+        "username": {
+          "description": "Ім'я користувача",
+          "type": "string",
+          "required": true
+        },
+        "password": {
+          "description": "Пароль користувача",
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    "light_parameters": {
+      "description": "Параметри освітлення",
+      "type": "object",
+      "properties": {
+        "min_brightness": {
+          "description": "Мінімальна яскравість",
+          "type": "number",
+          "required": true
+        },
+        "check_time": {
+          "description": "Час перевірки",
+          "type": "number",
+          "required": true
+        }
+      }
+    },
+    "report_generation": {
+      "description": "Генерація звітів",
+      "type": "object",
+      "properties": {
+        "status": {
+          "description": "Генерувати звіт",
+          "type": "boolean",
+          "required": true,
+          "light_report": {
+            "description": "Звіт",
+            "type": "object",
+            "required": true,
+            "properties": {
+              "light_stats": {
+                "description": "Значення освітлення",
+                "type": "number",
+                "required": true
+              },
+              "time_period": {
+                "description": "Період часу",
+                "type": "string",
+                "required": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "regulating_system": {
+      "description": "Регулююча система",
+      "type": "object",
+      "properties": {
+        "outdoor_factor": {
+          "description": "Фактор зовнішнього освітлення",
+          "type": "number",
+          "required": true
+        },
+        "light_level": {
+          "description": "Рівень освітлення",
+          "type": "number",
+          "required": true
+        },
+        "input_params": {
+          "description": "Отримані значення",
+          "type": "list",
+          "required": true,
+          "items": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "required": [
+      "user",
+      "light_parameters",
+      "report_generation",
+      "regulating_system"
+    ]
+  }
+}
