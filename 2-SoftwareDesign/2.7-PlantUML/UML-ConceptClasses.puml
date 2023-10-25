@@ -3,7 +3,7 @@
 left to right direction
 
 hide circle
-title Example of Classes Diagram 
+title UML Concept Classes Diagram 
 
 Class LightParameters {
     minBrightness
