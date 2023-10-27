@@ -1,0 +1,22 @@
+@startuml
+
+title Activity Diagram setLightParams()
+
+start
+:User enters data to the fields of LightParmaetes;
+:Program checks entered by user data; 
+if (Are all fields filled?) then (yes)
+   :All fields are filled;
+   if (Fields values pass validators) then (yes)
+       :Fields values are correct;
+   else (no)
+       :Fields values are incorrect;
+       :User is offered to enter data to the fields of LightParmaetes again;
+   endif
+else (no)
+   :Not all fields are filled;
+   :User is offered to enter data to the fields of LightParmaetes again;
+endif
+stop
+
+@enduml

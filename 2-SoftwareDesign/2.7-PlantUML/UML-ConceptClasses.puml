@@ -1,0 +1,28 @@
+@startuml
+
+left to right direction
+
+hide circle
+title UML Concept Classes Diagram 
+
+Class LightParameters {
+    minBrightness
+    checkTime
+}
+
+Class RegulatingSystem {
+    inputParameters
+    outdoorFactor
+    lightLevel
+}
+
+Class LightReport {
+    timePeriod
+    lightStats
+}
+
+LightParameters"1" --> "1"RegulatingSystem : regulate
+
+RegulatingSystem"1" o-- "*"LightReport 
+
+@enduml

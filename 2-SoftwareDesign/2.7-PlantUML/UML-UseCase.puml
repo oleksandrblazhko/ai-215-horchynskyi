@@ -1,0 +1,18 @@
+@startuml
+
+title SafeCo Engineering
+
+left to right direction
+
+actor EngineerUser
+
+rectangle Software {
+
+    usecase (Identifying potential hazards)
+    usecase (Analysis regarding illumination)
+
+   EngineerUser -- (Identifying potential hazards)
+   (Identifying potential hazards) .> (Analysis regarding illumination) : include
+}
+
+@enduml
