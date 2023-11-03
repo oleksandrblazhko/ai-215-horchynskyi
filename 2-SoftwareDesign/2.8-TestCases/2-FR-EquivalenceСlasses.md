@@ -2,4 +2,5 @@
 | ----------------- | --------------------------------------------- | -------------------------- |
 | 1) checkTime є додатнім, цілим числом <br> 2) chekTime є менше 100 <br> 3) minBrightness є додатнім числом, яке менше або дорівнює 1 | Правильний | checkTime = 1 <br> minBrightness = 0.75 |
 | 1) checkTime є негативним, цілим числом <br> 2) chekTime є менше 100 <br> 3) minBrightness є додатнім числом, яке менше або дорівнює 1 | Неправильний | checkTime = -1 <br> minBrightness = 0.5 |
-| 1) checkTime є додатнім, цілим числом <br> 2) chekTime є більше 100 <br> 3) minBrightness є додатнім числом, яке більше 1 | Неправильний | checkTime = 101 <br> minBrightness = 1.5 |
+| 1) checkTime є додатнім, цілим числом <br> 2) chekTime є менше 100 <br> 3) minBrightness є додатнім числом, яке більше 1 | Неправильний | checkTime = 15 <br> minBrightness = 1.5 |
+| 1) checkTime є додатнім, цілим числом <br> 2) chekTime є більше 100 <br> 3) minBrightness є додатнім числом, яке менше або дорівнює 1 | Неправильний | checkTime = 101 <br> minBrightness = 0.7 |
